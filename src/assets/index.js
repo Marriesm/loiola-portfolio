@@ -22,26 +22,27 @@ import AwardFillIcon from 'remixicon-react/AwardFillIcon'
 
 export const aboutData = [
   {
-    title: 'Github Repos',
-    amount: 348,
+    title: 'Repositórios GitHub',
+    amount: 28,
     icon: <GithubFillIcon />,
   },
   {
-    title: 'Successful Projects',
-    amount: 227,
+    title: 'Projetos Concluídos',
+    amount: 47,
     icon: <Projector2LineIcon />,
   },
   {
-    title: 'Satisfied clients',
-    amount: 176,
+    title: 'Clientes Satisfeitos',
+    amount: 13,
     icon: <GroupLineIcon />,
   },
   {
-    title: 'Awards and Recognition',
-    amount: 107,
-    icon: <AwardFillIcon />,
-  },
+  title: 'Certificados',
+  amount: 32,
+  icon: <AwardFillIcon />,
+}
 ]
+
 
 import DownloadLineIcon from 'remixicon-react/DownloadLineIcon'
 import ArrowLeftSFillIcon from 'remixicon-react/ArrowLeftSFillIcon'
@@ -49,58 +50,46 @@ import ArrowLeftSFillIcon from 'remixicon-react/ArrowLeftSFillIcon'
 export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
-export const aboutText =
-  " Hi, I'm Nick, a web developer & designer. I blend the technical  skills of web development with the creative aspects of web design. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive websites, while also using design tools like Photoshop and Figma to create visually appealing and user-friendly  interfaces. My role allows me to ensure that websites not only work well but also look great and provide an excellent user experience."
-// End of About Me
+export const aboutText = "Sou desenvolvedor full-stack apaixonado por tecnologia e pela criação de experiências digitais.Atuo tanto no back-end quanto no front-end, desenvolvendo aplicações completas, modernas e escaláveis. Tenho experiência com C#, .NET, Python e Django na construção de sistemas robustos e bem estruturados, além de criar interfaces dinâmicas e responsivas utilizando React e Next.js. Trabalho com PostgreSQL para modelagem eficiente de dados, utilizo Tailwind CSS para desenvolver layouts elegantes e performáticos, e o Figma para prototipação e design de interfaces intuitivas. Busco sempre unir performance, usabilidade e qualidade de código em cada projeto.";
 
-// Experience
+
 export const experienceData = [
   {
-    year: 1,
-    title: 'Foundation and Basics',
+    year: 2,
+    title: 'Grupo Jaime Câmara ( 2021 - 2024)',
     education:
-      'High School Diploma: Focus on computer science, mathematics, and art/design courses.',
+      'Faculdade : Anhnaguera e cursos Alura e Udemy.',
     experience: [
-      'Basic HTML/CSS: Learn through online tutorials and courses.',
-      'Personal Projects: Create simple personal websites or blogs.',
+      '- Criação de artes para o jornal O Popular, e rádios. Utilizando ferramentas como Photoshop e Illustrator.',
+      '- Criação de peças para os sites O Popular.',
     ],
   },
   {
     year: 2,
-    title: 'Advanced Learning and Early Experience',
+    title: 'Faculdade Engenharia de Software)',
     education:
-      'Associate’s Degree in Web Development or Design: Enroll in a 2-year program covering web development and design principles.',
+      '.',
     experience: [
-      'Freelance Work: Take on small freelance projects to build a portfolio.',
-      'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
-    ],
-  },
-  {
-    year: 3,
-    title: 'Specialized Education and Real-World Application',
-    education:
-      'Online Courses and Bootcamps: Focus on specialized areas like front-end frameworks (React, Angular) and back-end technologies (Node.js).',
-    experience: [
-      'Internships: Secure internships with tech companies or design agencies.',
-      'Contribute to Open Source: Collaborate on open-source projects.',
-    ],
-  },
-  {
-    year: 4,
-    title: 'Building Expertise and Expanding Skills',
-    education: 'Certifications: Obtain certifications in advanced web technologies.',
-    experience: [
-      'Full-Time Position: Work as a junior web developer or designer.',
-      'Portfolio Development: Continuously update your portfolio with professional and personal projects.',
+      '.',
+      '.',
     ],
   },
   {
     year: 5,
+    title: 'Building Expertise and Expanding Skills',
+    education: 'Certifications: Obtain certifications in advanced web technologies.',
+    experience: [
+      '.',
+      '.',
+    ],
+  },
+  {
+    year: 6,
     title: 'Mastery and Leadership',
     education: 'Workshops and Conferences: Attend industry events to stay updated.',
     experience: [
-      'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
-      'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
+      '.',
+      '.',
     ],
   },
 ]
@@ -114,10 +103,6 @@ export const skillsData = [
   {
     name: 'Photoshop',
     icon: '/skills/photoshop.png',
-  },
-  {
-    name: 'Blender',
-    icon: '/skills/blender.png',
   },
   {
     name: 'VS Code',
@@ -160,20 +145,12 @@ export const skillsData = [
     icon: '/skills/framer.png',
   },
   {
-    name: 'ThreeJS',
-    icon: '/skills/threejs.png',
-  },
-  {
     name: 'NextJS',
     icon: '/skills/nextjs.png',
   },
   {
     name: 'NodeJS',
     icon: '/skills/nodejs.png',
-  },
-  {
-    name: 'MongoDB',
-    icon: '/skills/mongodb.png',
   },
   {
     name: 'Github',
@@ -194,37 +171,37 @@ export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />]
 export const reviewsData = [
   {
     image: '/reviews/client-4.png',
-    name: 'Mark T., Freelance Graphic Designer',
+    name: 'Marrie, Freelance Graphic Designer',
     comment:
-      "Your work on our website has been phenomenal. The design is visually stunning and incredibly user-friendly. We've received countless compliments from our customers, and our sales have noticeably increased. Thank you for capturing our brand's essence so perfectly!",
+      ". ",
     stars: [1, 1, 1, 1, 0.5],
   },
   {
     image: '/reviews/client-2.png',
-    name: 'Sarah B., E-commerce Store Owner',
+    name: 'Indaya, E-commerce Store Owner',
     comment:
-      "Working with you, has been an absolute pleasure. The portfolio website you created for me is sleek, modern, and beautifully showcases my work. Your attention to detail and creative flair are truly impressive. I couldn't be happier with the final result!",
+      ".",
     stars: [1, 1, 1, 1, 1],
   },
   {
     image: '/reviews/client-3.png',
-    name: 'Emily R., CEO of Tech Startup',
+    name: 'Lu, CEO of Tech Startup',
     comment:
-      "The redesign of our corporate website exceeded all expectations. Your innovative ideas and professional execution have given us a site that is not only visually appealing but also highly functional. We've seen a significant improvement in user engagement thanks to your expertise.",
+      ".",
     stars: [1, 1, 1, 1, 1],
   },
   {
     image: '/reviews/client-1.png',
-    name: 'Bob W., Lifestyle Blogger',
+    name: 'Laryssa, Lifestyle Blogger',
     comment:
-      "I absolutely love the blog design you created for me, [Web Designer's Name]. It's exactly what I envisioned—stylish, unique, and easy to navigate. Your responsiveness and creative input were invaluable. My readers are raving about the new look, and I couldn't be more thrilled!",
+      ".",
     stars: [1, 1, 1, 1, 0.5],
   },
   {
     image: '/reviews/client-5.png',
-    name: 'David H., Director of Non-Profit Organization',
+    name: 'Josley, Director of Non-Profit Organization',
     comment:
-      "your work on our non-profit’s website has been transformative. The design is clean, engaging, and effectively conveys our mission. We've seen an increase in online donations and volunteer sign-ups, all thanks to your fantastic design. Your dedication and talent are greatly appreciated!",
+      ".",
     stars: [1, 1, 1, 1, 1],
   },
 ]
@@ -232,62 +209,62 @@ export const reviewsData = [
 // Projects
 export const projectsData = [
   {
-    name: 'SparkleGrove.com',
-    desc: 'A lifestyle blog featuring DIY crafts, home decor ideas, and inspiration for creating a cozy and stylish living space.',
+    name: '3',
+    desc: '',
     url: '/projects/image-1.jpg',
     tech: ['Figma', 'Photoshop', 'HTML'],
   },
   {
-    name: 'TechTrekker.net',
-    desc: 'A technology news and review site covering the latest gadgets, software updates, and trends in the tech industry.',
+    name: '2',
+    desc: '',
     url: '/projects/image-2.jpg',
     tech: ['Figma', 'Photoshop'],
   },
   {
-    name: 'CozyNestHomes.org',
-    desc: 'A resource for homeowners and renters alike, offering tips on interior design, home improvement projects, and sustainable living practices.',
+    name: '1',
+    desc: '.',
     url: '/projects/image-3.jpg',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    name: 'WanderLuxeTravels.co',
-    desc: 'A travel website that provides luxury travel guides, destination reviews, and tips for planning unforgettable vacations.',
+    name: '4',
+    desc: '',
     url: '/projects/image-4.jpg',
     tech: ['HTML', 'CSS', 'JavaScript', 'TailwindCSS'],
   },
   {
-    name: 'ByteBoosters.io',
-    desc: 'A tech startup specializing in software development, offering innovative solutions and services for businesses looking to enhance their digital presence.',
+    name: '5',
+    desc: '.',
     url: '/projects/image-5.jpg',
     tech: ['Figma', 'ReactJS', 'TailwindCSS', 'CSS'],
   },
   {
-    name: 'GreenLeafGardens.biz',
-    desc: 'An online store and community hub for gardening enthusiasts, featuring a wide range of plants, gardening tools, and expert advice.',
+    name: '6',
+    desc: '.',
     url: '/projects/image-6.jpg',
     tech: ['ReactJS', 'TailwindCSS', , 'CSS', 'FramerMotion'],
   },
   {
-    name: 'PixelPerfectDesigns.info',
-    desc: 'A graphic design portfolio showcasing the work of a freelance designer, including branding, web design, and illustration projects.',
+    name: '7',
+    desc: '',
     url: '/projects/image-7.jpg',
     tech: ['NextJS', 'FramerMotion'],
   },
   {
-    name: 'HarmonyHealthHub.com',
-    desc: ' A wellness website focused on holistic health, offering articles on nutrition, fitness, mental health, and alternative therapies.',
+    name: '8',
+    desc: ' ',
     url: '/projects/image-8.jpg',
     tech: ['NextJS', 'ReactJS', 'FramerMotion'],
   },
   {
-    name: 'StellarSkiesAstronomy.org',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    name: '9',
+    desc: '.',
     url: '/projects/image-9.jpg',
     tech: ['ReactJS', 'JavaScript', 'ThreeJS'],
   },
   {
-    name: 'UrbanEatsDelights.com',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    name: '10',
+    desc: '',
     url: '/projects/image-10.jpg',
     tech: ['NextJS', 'ThreeJS'],
   },
@@ -311,49 +288,49 @@ export const projectsButton = [
 export const pricingPlans = [
   {
     title: 'Basic',
-    pricing: '$500 - $1,000',
+    pricing: '',
     features: [
-      'Up to 5 pages',
-      'Responsive design ',
-      'Basic SEO ',
-      'Contact form',
-      'Social media links',
-      '1 month support',
+      '',
+      '',
+      ' ',
+      '',
+      '',
+      '',
     ],
-    recommended: 'Small businesses, personal websites, bloggers',
+    recommended: '',
   },
   {
     title: 'Premium',
-    pricing: '$5,000 - $10,000',
+    pricing: '',
     features: [
-      'Unlimited pages',
-      'Responsive design',
-      'Comprehensive SEO',
-      'Contact form ',
-      'Social media links',
-      'Advanced security',
-      'E-commerce (unlimited products)',
-      'Blog setup',
-      'Google Analytics with custom reports',
-      '6 months support',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
     ],
-    recommended: 'Medium-sized businesses, online stores, service providers',
+    recommended: '',
   },
   {
-    title: 'Standard',
-    pricing: '$1,500 - $3,000',
+    title: '',
+    pricing: '',
     features: [
-      'Up to 10 pages',
-      'Responsive design',
-      'Advanced SEO',
-      'CContact form',
-      'Social media links',
-      'E-commerce (20 products)',
-      'Blog setup',
-      'Google Analytics',
-      '3 months support',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
     ],
-    recommended: 'Large businesses, complex e-commerce sites, custom web applications',
+    recommended: '',
   },
 ]
 
@@ -364,59 +341,59 @@ export const checkIcon = <CheckLineIcon />
 // Q & A
 export const questions = [
   {
-    question: 'How much do you charge for a website?',
+    question: '',
     answer:
-      'Our website packages usually range from £2997 – £4997. However it really depends on what kind of website you need. We recently wrote a full guide on how much it costs for a website to give you an idea of the different options available.',
+      '',
   },
   {
-    question: 'Why are you so expensive?',
+    question: '',
     answer:
-      'he process we use to build your website takes a certain amount of time and a lot of planning and research. Unlike other agencies, we DON’T use templates. We build your website from scratch, which means you get a unique design tailored around your business. Buying a website from us should not just simply be seen as a business expense as your website is a sales tool that should earn you money',
+      ' ',
   },
   {
-    question: 'How long does it take to build a website?',
+    question: '',
     answer:
-      'It takes approximately 6-10 weeks to build a website from start to finish, providing we have all the information from you. Our full web design process is broken down here. Generally speaking, the website will only take a long time if we are still waiting for text and images from yourself.',
+      '',
   },
   {
-    question: 'How do we communicate throughout the website build?',
+    question: '',
     answer:
-      'Before we begin working together, we’ll usually have an initially chat on the phone or via Skype to discuss the project. Once we get started, most of the communication will take place over email. This makes the process a lot easier as we’ll have all of the information saved and can come back to it later. Once we’ve finished the project, we will book in your 1hr digital marketing training session.',
+      '.',
   },
   {
-    question: 'What will you need from me?',
+    question: '',
     answer:
-      'It really depends on what type of website you want. We’ll be able to discuss this on our discovery call before we start working together. Depending on which package we agree on we could need…',
+      '',
   },
   {
-    question: 'What if I don’t like the website?',
+    question: '',
     answer:
-      'You’re in luck. We offer a risk-free guarantee. Before we build your new website, we’ll design a mockup of your homepage. We’ll design a layout in Photoshop first, that way you’ll get to see our initial designs within approximately ten days. This is your opportunity to give us feedback and if you really don’t like it, you don’t have to move forward. Best part is, this won’t cost you anything.',
+      ' ',
   },
   {
-    question: 'Do you offer a payment schedule?',
+    question: '',
     answer:
-      'Yes, we split the payment into two. The first 50% is usually taken once you have seen the mockup of your homepage and you’re happy to move forward. The following 50% is taken 30 days after this.',
+      '',
   },
   {
-    question: 'Can I make the final payment when the site is ready to go live?',
+    question: '',
     answer:
-      'No. In the past we have found that projects can take a lot longer than expected to complete. We might be waiting for information from you and this can delay the process. Sometimes these delays can take months. This is why we always invoice 30 days after the original payment. At this point we’ll be well on our way with your new website and you’ll be able to see the progress.',
+      ' ',
   },
   {
-    question: 'Who hosts the website?',
+    question: '',
     answer:
-      'If we build your website, we will generally manage the hosting for you so you don’t need to do anything. We use the same hosting company for our own website and for ALL our clients. Each website is managed individually to avoid any security issues. Every website we build has unlimited bandwidth, 20GB of disk space, 2GB Ram and 99.9% uptime. We’ve used the same company for 5 years and we don’t plan on changing this anytime soon.',
+      '.',
   },
   {
-    question: 'Can I update the website myself once it’s been built?',
+    question: '',
     answer:
-      'Yes. We like to offer the ability for our clients to update the website themselves. We we’ll give you all the training and tools to be able to make website amendments. We use a easy to use platform called WordPress so you can add edit and delete content without paying us to do it for you.',
+      '.',
   },
   {
-    question: 'What if I don’t want to manage the website at all. Can you do it all for me?',
+    question: '',
     answer:
-      'Yes, we can arrange a maintenance package to suit your needs. This can range from 1hr per month to 10 hours per month and we can discuss a package that’s right for you.',
+      '',
   },
 ]
 

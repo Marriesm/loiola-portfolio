@@ -1,7 +1,7 @@
-import { Outfit } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 
-const outfit = Outfit({ subsets: ['latin'] })
+const outfit = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Nick Brown',

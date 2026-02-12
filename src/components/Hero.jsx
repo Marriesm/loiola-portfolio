@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import { heroIcons } from '@/assets'
+import { arrowLeftIcon, downloadIcon, heroIcons } from '@/assets'
 import { useMotionValue, useTransform, motion, useSpring } from 'framer-motion'
 import { useState } from 'react'
 
@@ -53,12 +53,12 @@ const Hero = () => {
             }}
           >
             <Image
-              src={'/person.png'}
+              src={'/me.png'}
               alt="Person Image"
-              width={400}
-              height={400}
+              width={800}
+              height={800}
               priority={true}
-              className="h-auto w-[150px]"
+              className="h-auto w-[350px]"
             />
             <motion.span
               className="absolute text-3xl font-semibold text-white"
@@ -74,23 +74,25 @@ const Hero = () => {
             </motion.span>
           </motion.div>
           <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
-            My Name is Nick Brown &
+            Meu nome é Lucas Fernandes
           </h1>
           <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
-            I like animations 🤗
+             <span>Desenvolvedor WebFull-Stack🚀 </span>
           </p>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 sm:text-2xl"
+          className="mt-8 flex justify-center gap-x-10 text-3xl bg-gradient-to-r from-red-700 via-red-500 to-red-700 rounded-2xl py-2 w-70 text-white sm:text-2xl"
         >
           {heroIcons.map((icon, i) => (
             <a
               href="#"
               key={i}
-              className="rounded-lg hover:bg-red-400 hover:text-white transition-colors"
+              width={150}
+              height={150}
+              className="rounded-lg text-4xl sm:text-3xl hover:bg-yellow-500 hover:text-white transition-colors"
             >
               {icon}
             </a>
@@ -101,11 +103,11 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.7 }}
           href="#"
-          className="mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-500 transition-colors"
+          className="mx-auto mt-3 block w-max rounded-lg bg-red-700 px-3 py-2 font-light capitalize tracking-wider text-white hover:bg-yellow-500 transition-colors"
           onMouseEnter={() => setButtonHover(true)}
           onMouseLeave={() => setButtonHover(false)}
         >
-          Talk to me
+          Entre em contato comigo!📲
         </motion.a>
       </div>
     </div>

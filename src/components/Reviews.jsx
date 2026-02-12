@@ -44,7 +44,7 @@ const Reviews = () => {
             <motion.div
               initial={{ x: '100%' }}
               key={i}
-              className="absolute inset-0 flex flex-col items-center justify-center gap-y-7 lg:gap-y-4 border border-yellow-500 bg-zinc-50 p-14 lg:p-5 rounded-xl dark:bg-zinc-700 transition-colors"
+              className="absolute inset-0 flex flex-col items-center justify-center gap-y-7 lg:gap-y-4 border border-red-700 bg-zinc-50 p-14 lg:p-5 rounded-xl dark:bg-zinc-700 transition-colors"
               ref={(el) => slides.current.push(el)}
             >
               <Image
@@ -52,7 +52,7 @@ const Reviews = () => {
                 alt="Reviews Image"
                 width={130}
                 height={130}
-                className="w-[130px] aspect-square rounded-full border border-yellow-500 p-4 object-contain"
+                className="w-[130px] aspect-square rounded-full border border-red-700 p-4 object-contain"
               />
               <h1 className="text-2xl md:text-xl text-center trackig-wider text-yellow-600">
                 {review.name}
@@ -68,7 +68,7 @@ const Reviews = () => {
                     }, 0)
                     .toFixed(1)}
                 </span>
-                <div className="flex items-center gap-x-2 text-2xl text-yellow-500">
+                <div className="flex items-center gap-x-2 text-2xl text-red-700">
                   {review.stars.map((star, i) => (
                     <span key={i}>{star === 1 ? starIcons[0] : starIcons[1]}</span>
                   ))}
