@@ -4,7 +4,7 @@ import './globals.css'
 const outfit = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Nick Brown',
+  title: 'Lucas Fernandes',
   description: 'Portfolio Website',
 }
 

@@ -209,7 +209,7 @@ export const reviewsData = [
 // Projects
 export const projectsData = [
   {
-    name: '3',
+    name: 'Design Layout Imprensão 3d',
     desc: '',
     url: '/projects/image-1.jpg',
     tech: ['Figma', 'Photoshop', 'HTML'],
@@ -273,15 +273,15 @@ export const projectsData = [
 export const projectsButton = [
   'All',
   'Figma',
-  'Photoshop',
-  'HTML',
+  'Next',
+  'React',
   'CSS',
   'JavaScript',
-  'ReactJS',
+  'Typescript',
   'TailwindCSS',
   'NextJS',
-  'FramerMotion',
-  'ThreeJS',
+  'C#',
+  'Python',
 ]
 
 // Pricing Plans
