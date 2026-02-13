@@ -22,7 +22,7 @@ const Projects = () => {
   }, [index])
   return (
     <div id="projects" className="min-h-screen py-20">
-      <Heading text={'Projects'} />
+      <Heading text={'Projetos'} />
       <div className="flex flex-wrap items-center justify-between gap-4 py-10">
         {projectsButton.map((text, i) => (
           <motion.button

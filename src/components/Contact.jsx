@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const Contact = () => {
   return (
     <div id="contact" className="h-screen lg:h-auto py-20 lg:py-40 xs:pb-20">
-      <Heading text={'Get in touch'} />
+      <Heading text={'Envie uma Mensagem'} />
       <div className="w-full h-full my-auto flex lg:flex-col items-center justify-between lg:justify-center gap-x-20 lg:gap-x-0 gap-y-20">
         <motion.div
           initial={{ opacity: 0, y: 150 }}
@@ -15,11 +15,11 @@ const Contact = () => {
           viewport={{ once: true }}
         >
           <Image
-            src={'/contact.gif'}
+            src={'/e-mails.png'}
             alt="Contact Image"
-            width={400}
-            height={400}
-            className="w-[400px] rounded-md opacity-80"
+            width={500}
+            height={500}
+            className="w-[500px] rounded-md opacity-80"
           />
         </motion.div>
         <motion.form

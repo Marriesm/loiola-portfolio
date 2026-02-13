@@ -66,30 +66,30 @@ export const experienceData = [
   },
   {
     year: 2,
-    title: 'Faculdade Engenharia de Software)',
+    title: 'Faculdade Engenharia de Software (2024 - 2027)',
     education:
-      '.',
+      'Faculdade Anhanguera',
     experience: [
-      '.',
-      '.',
+      '- Sistemas full stack',
+      '- Estruturar soluções',
     ],
   },
   {
     year: 5,
-    title: 'Building Expertise and Expanding Skills',
-    education: 'Certifications: Obtain certifications in advanced web technologies.',
+    title: 'Certificações Alura e Udemy',
+    education: 'Além da graduação em Engenharia de Software, realizo formação contínua por meio de cursos especializados na Alura e Udemy, com foco em desenvolvimento full stack, arquitetura de software e tecnologias modernas',
     experience: [
-      '.',
-      '.',
+      '- Cursos extracurriculares',
+      '- Capacitação contínua',
     ],
   },
   {
     year: 6,
-    title: 'Mastery and Leadership',
-    education: 'Workshops and Conferences: Attend industry events to stay updated.',
+    title: 'Programador C# - Grupo Odilon Santos (2025 - atual)',
+    education: 'Responsável pelo desenvolvimento de um sistema CRM voltado para gestão de impressoras, incluindo criação de funcionalidades, estruturação do sistema e design de layouts para a interface.',
     experience: [
-      '.',
-      '.',
+      '- Desenvolvimento de aplicação em C#',
+      '- Construção de CRM para gerenciamento de impressoras',
     ],
   },
 ]
@@ -137,12 +137,20 @@ export const skillsData = [
     icon: '/skills/ts.png',
   },
   {
+    name: 'C#',
+    icon: '/skills/C.png',
+  },
+  {
+    name: '.NET',
+    icon: '/skills/net.png',
+  },
+  {
     name: 'AI',
     icon: '/skills/ai.png',
   },
   {
-    name: 'Framer Motion',
-    icon: '/skills/framer.png',
+    name: 'Pyhton ',
+    icon: '/skills/python.png',
   },
   {
     name: 'NextJS',
@@ -171,37 +179,37 @@ export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />]
 export const reviewsData = [
   {
     image: '/reviews/client-4.png',
-    name: 'Marrie, Freelance Graphic Designer',
+    name: 'Marrie, Dev Full-Stack',
     comment:
-      ". ",
+      "Lucas é um programador extremamente dedicado e detalhista. Sempre entrega soluções bem estruturadas, com código limpo e fácil de manter. ",
     stars: [1, 1, 1, 1, 0.5],
   },
   {
     image: '/reviews/client-2.png',
-    name: 'Indaya, E-commerce Store Owner',
+    name: 'Indaya Martins',
     comment:
-      ".",
+      "Tive uma ótima experiência trabalhando com o Lucas. Ele tem excelente raciocínio lógico, resolve problemas rapidamente e se comunica muito bem.",
     stars: [1, 1, 1, 1, 1],
   },
   {
     image: '/reviews/client-3.png',
-    name: 'Lu, CEO of Tech Startup',
+    name: 'Lu Almeida',
     comment:
-      ".",
+      "Profissional comprometido e confiável. Lucas entende rapidamente as necessidades do projeto e propõe melhorias inteligentes.",
     stars: [1, 1, 1, 1, 1],
   },
   {
     image: '/reviews/client-1.png',
-    name: 'Laryssa, Lifestyle Blogger',
+    name: 'Laryssa Soares',
     comment:
-      ".",
+      "Lucas é aquele tipo de programador que traz tranquilidade para o projeto. Organizado, ágil e sempre atento aos detalhes.",
     stars: [1, 1, 1, 1, 0.5],
   },
   {
     image: '/reviews/client-5.png',
-    name: 'Josley, Director of Non-Profit Organization',
+    name: 'Leandro, Diretor Jaime Câmera',
     comment:
-      ".",
+      "Lucas se destaca pela organização e clareza no desenvolvimento. Seu trabalho transmite segurança, qualidade e profissionalismo",
     stars: [1, 1, 1, 1, 1],
   },
 ]
@@ -215,7 +223,7 @@ export const projectsData = [
     tech: ['Figma', 'Photoshop', 'HTML'],
   },
   {
-    name: '2',
+    name: 'D',
     desc: '',
     url: '/projects/image-2.jpg',
     tech: ['Figma', 'Photoshop'],
@@ -281,56 +289,55 @@ export const projectsButton = [
   'TailwindCSS',
   'NextJS',
   'C#',
+  '.NET',
   'Python',
+  'Django',
+  'UX',
 ]
 
 // Pricing Plans
 export const pricingPlans = [
   {
-    title: 'Basic',
-    pricing: '',
+    title: '💼 CLT',
+    pricing: 'Ideal para empresas que buscam um profissional dedicado, com foco em longo prazo e integração total ao time.',
     features: [
-      '',
-      '',
-      ' ',
-      '',
-      '',
-      '',
+      'Disponibilidade integral',
+      'Compromisso contínuo com o projeto',
+      'Evolução e manutenção constante',
+      'Estabilidade e previsibilidade',
+      'Participação ativa nas decisões técnicas',
+      'Foco em projetos de longo prazo',
     ],
-    recommended: '',
+    recommended: 'Ideal para: Times internos / projetos de longa duração',
   },
   {
-    title: 'Premium',
-    pricing: '',
+    title: '🚀 PJ (Pessoa Jurídica)',
+    pricing: 'Modelo estratégico para empresas que precisam de flexibilidade e autonomia.',
     features: [
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
+      'Contrato flexível por período ou demanda',
+      'Alta autonomia técnica',
+      'Entregas orientadas a resultado',
+      'Escalabilidade conforme necessidade',
+      'Agilidade na contratação',
+      'Possibilidade de atuação híbrida ou remota',
+      'Otimização de custos operacionais'
     ],
-    recommended: '',
+    recommended: 'Ideal para: Startups / squads / projetos específicos',
   },
   {
-    title: '',
-    pricing: '',
+    title: '🧑‍💻 Freelancer',
+    pricing: 'Perfeito para demandas pontuais e desenvolvimento sob medida',
     features: [
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
+      'Projetos com escopo fechado',
+      'Correções e melhorias rápidas',
+      'Implementação de novas features',
+      'Ajustes visuais e de layout',
+      'Suporte técnico sob demanda',
+      'Criação de layouts e artes visuais',
+      'Ideal para startups e pequenos negócios',
+      'Entregas por prazo fechado',
     ],
-    recommended: '',
+    recommended: 'Demandas rápidas / validações / melhorias',
   },
 ]
 
@@ -341,59 +348,59 @@ export const checkIcon = <CheckLineIcon />
 // Q & A
 export const questions = [
   {
-    question: '',
+    question: '1️⃣ Quais tecnologias você trabalha?',
     answer:
-      '',
+      'Trabalho principalmente com C#, .NET, desenvolvimento de sistemas, integrações, bancos de dados e criação de layouts modernos e funcionais.',
   },
   {
-    question: '',
+    question: '2️⃣ Você desenvolve sistemas sob medida?',
     answer:
-      ' ',
+      'Sim. Analiso a necessidade do projeto e desenvolvo soluções personalizadas conforme o fluxo e os objetivos do cliente.',
   },
   {
-    question: '',
+    question: '3️⃣ Você faz apenas back-end ou front-end também?',
     answer:
-      '',
+      'Atuo nas duas frentes. Posso desenvolver a lógica do sistema e também criar interfaces intuitivas e bem estruturadas.',
   },
   {
-    question: '',
+    question: '4️⃣ Você realiza manutenção em sistemas existentes?',
     answer:
-      '.',
+      'Sim. Posso corrigir erros, otimizar performance, implementar melhorias e adicionar novas funcionalidades.',
   },
   {
-    question: '',
+    question: '5️⃣ Como funciona o processo de desenvolvimento?',
     answer:
-      '',
+      'Normalmente seguimos etapas: briefing → planejamento → desenvolvimento → validação → ajustes → entrega final.',
   },
   {
-    question: '',
+    question: '6️⃣ Você trabalha com prazos fechados?',
     answer:
-      ' ',
+      'Sim. Após entender o escopo, defino um cronograma claro para garantir previsibilidade e organização.',
   },
   {
-    question: '',
+    question: 'Você faz integrações com APIs ou outros sistemas?',
     answer:
-      '',
+      'Sim. Integro sistemas com APIs, bancos de dados, automações e ferramentas externas.',
   },
   {
-    question: '',
+    question: '8️⃣ Você assina contrato ou acordo de confidencialidade (NDA)?',
     answer:
-      ' ',
+      'Sim. Posso formalizar contrato e NDA para garantir segurança e sigilo das informações.',
   },
   {
-    question: '',
+    question: '9️⃣ Você atua como CLT, PJ ou Freelancer?',
     answer:
-      '.',
+      'Tenho flexibilidade para atuar nos três modelos, dependendo da necessidade do projeto ou empresa',
   },
   {
-    question: '',
+    question: '🔟 Você ajuda na definição técnica do projeto?',
     answer:
-      '.',
+      'Sim. Posso auxiliar na arquitetura, escolha de tecnologias, estrutura do sistema e boas práticas.',
   },
   {
-    question: '',
+    question: '1️⃣1️⃣ Seu desenvolvimento é focado apenas em código ou também na experiência do usuário?',
     answer:
-      '',
+      'Meu trabalho une desenvolvimento e experiência do usuário (UX). Além da lógica e performance, priorizo interfaces intuitivas, design consistente e usabilidade eficiente.',
   },
 ]
 

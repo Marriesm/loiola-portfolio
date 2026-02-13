@@ -38,7 +38,7 @@ const Skills = () => {
               alt="Skills Image"
               width={100}
               height={100}
-              className="h-auto w-[40px]"
+              className="h-auto w-[50px]"
             />
             <p className="text-sm text-gray-600">{item.name}</p>
           </motion.div>
