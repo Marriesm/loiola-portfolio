@@ -13,8 +13,8 @@ const Navbar = ({ id }) => {
             <span
               className={`text-2xl group-hover:scale-125 xl:group-hover:scale-115 xs:group-hover:scale-100 transition-all ${
                 item.id === id
-                  ? 'text-red-700 scale-110 xl:scale-100 xs:scale-80'
-                  : 'text-yellow-600 scale-100 xl:scale-90 xs:scale-70'
+                  ? 'text-lime-300 scale-110 xl:scale-100 xs:scale-80'
+                  : 'text-lime-600 scale-100 xl:scale-90 xs:scale-70'
               }`}
             >
               {item.icon}

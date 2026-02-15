@@ -12,7 +12,7 @@ const Project = ({ data, index }) => {
       viewport={{ once: true }}
       transition={{ duration: 1, type: 'spring', stiffness: 100 }}
       onClick={() => setShow((show) => !show)}
-      className="relative w-[350px] sm:w-full h-max border border-yellow-400 rounded-lg cursor-pointer"
+      className="relative w-[350px] sm:w-full h-max border-4 border-lime-600 rounded-lg cursor-pointer"
     >
       <Image
         src={data.url}

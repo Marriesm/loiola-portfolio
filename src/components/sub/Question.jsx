@@ -23,12 +23,12 @@ const Question = ({ data, index }) => {
       whileInView="visible"
       viewport={{ margin: '50px', once: true }}
       variants={variants}
-      className="border border-yellow-500 p-1 rounded-lg"
+      className="border-2 border-lime-500 p-1 rounded-lg"
     >
       <h1
         onClick={() => setShow(!show)}
-        className={`flex items-center text-xl font-extralight text-gray-800 hover:text-yellow-600 tracking-wide cursor-pointer dark:text-white dark:hover:bg-zinc700 dark:hover:text-yellow-600 ${
-          show && 'border-b text-yellow-600'
+        className={`flex items-center text-xl font-extralight text-gray-800 hover:text-lime-600 tracking-wide cursor-pointer dark:text-white dark:hover:bg-zinc700 dark:hover:text-lime-600 ${
+          show && 'border-b text-lime-600'
         }`}
       >
         <motion.span animate={{ rotate: show ? 180 : 0 }}>{questionArrow}</motion.span>

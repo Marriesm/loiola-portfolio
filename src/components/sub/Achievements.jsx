@@ -21,7 +21,7 @@ const Achievements = ({ title, amount, children }) => {
       <span className="text-4xl lg:text-2xl text-gray-300">{children}</span>
       <h1 className="flex flex-col gap-y-2">
         <motion.span
-          className="text-2xl lg:text-xl font-semibold text-red-600"
+          className="text-2xl lg:text-xl font-semibold text-lime-600"
           whileInView={() => count(amount)}
           viewport={{ once: true }}
         >

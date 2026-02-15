@@ -33,13 +33,13 @@ const Projects = () => {
               setTech(text)
               setIndex(i)
             }}
-            className="border border-yellow-500 rounded-xl px-2 py-1 text-sm font-light tracking-wider text-gray-400"
+            className="border-2 bg-gradient-to-br from-yellow-700 via-fuchsia-900 to-rose-700  border-lime-500 rounded-xl px-2 py-1 text-sm font-light tracking-wider text-white"
           >
             {text}
           </motion.button>
         ))}
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-5">
+      <div className="flex flex-wrap items-center justify-center gap-5 ">
         {projectsData
           .filter((project) => {
             return project.tech.some((item) => (tech === 'All' ? true : item === tech))

@@ -4,16 +4,19 @@ import FacebookCircleLineIcon from 'remixicon-react/FacebookCircleLineIcon'
 import DribbbleLineIcon from 'remixicon-react/DribbbleLineIcon'
 import YoutubeLineIcon from 'remixicon-react/YoutubeLineIcon'
 import GithubLineIcon from 'remixicon-react/GithubLineIcon'
+import Linkedin from 'remixicon-react/LinkedinLineIcon'
+import WhatsappLineIcon from 'remixicon-react/WhatsappLineIcon'
+
+
 
 /* eslint-disable react/jsx-key */
 export const heroIcons = [
-  <InstagramLineIcon />,
-  <FacebookCircleLineIcon />,
-  <DribbbleLineIcon />,
-  <YoutubeLineIcon />,
-  <GithubLineIcon />,
+  { icon: InstagramLineIcon, href: 'https://www.instagram.com/ofernandeslucas?igsh=MmNtZ2dndW15MTQ%3D&utm_source=qr' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/lucasfernandesloiola?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
+  { icon: YoutubeLineIcon, href: 'https://youtube.com/@lufloatoficial?si=IQjGzSs9Mga8-IcQ' },
+  { icon: GithubLineIcon, href: 'https://github.com/lufloat' },
+  { icon: WhatsappLineIcon, href: 'https://wa.me/5562981452568' }
 ]
-
 // About Me
 import GithubFillIcon from 'remixicon-react/GithubFillIcon'
 import Projector2LineIcon from 'remixicon-react/Projector2LineIcon'
@@ -219,68 +222,81 @@ export const projectsData = [
   {
     name: 'Design Layout Imprensão 3d',
     desc: '',
-    url: '/projects/image-1.jpg',
-    tech: ['Figma', 'Photoshop', 'HTML'],
+    url: '/projects/Vistoria.jpeg',
+    tech: ['Figma', 'Photoshop', 'UX', 'Python', 'Django', 'CSS'],
   },
   {
     name: 'D',
     desc: '',
-    url: '/projects/image-2.jpg',
-    tech: ['Figma', 'Photoshop'],
+    url: '/projects/Chatbot.jpeg',
+    tech: ['Figma', 'Photoshop', 'UX'],
   },
   {
     name: '1',
     desc: '.',
-    url: '/projects/image-3.jpg',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    url: '/projects/crm.png',
+    tech: ['HTML', 'CSS', 'JavaScript', 'React', 'TailwindCSS', 'C#', '.NET'],
   },
   {
     name: '4',
     desc: '',
-    url: '/projects/image-4.jpg',
-    tech: ['HTML', 'CSS', 'JavaScript', 'TailwindCSS'],
+    url: '/projects/5.jpg',
+    tech: ['Design & Figma'],
   },
   {
     name: '5',
     desc: '.',
-    url: '/projects/image-5.jpg',
-    tech: ['Figma', 'ReactJS', 'TailwindCSS', 'CSS'],
+    url: '/projects/6.jpg',
+    tech: ['Design & Figma'],
   },
   {
     name: '6',
     desc: '.',
-    url: '/projects/image-6.jpg',
-    tech: ['ReactJS', 'TailwindCSS', , 'CSS', 'FramerMotion'],
+    url: '/projects/8.jpg',
+    tech: ['Design & Figma'],
   },
   {
     name: '7',
     desc: '',
-    url: '/projects/image-7.jpg',
-    tech: ['NextJS', 'FramerMotion'],
+    url: '/projects/9.jpg',
+    tech: ['Design & Figma'],
   },
   {
     name: '8',
     desc: ' ',
-    url: '/projects/image-8.jpg',
-    tech: ['NextJS', 'ReactJS', 'FramerMotion'],
+    url: '/projects/10.jpg',
+    tech: ['Design & Figma'],
   },
   {
     name: '9',
     desc: '.',
-    url: '/projects/image-9.jpg',
-    tech: ['ReactJS', 'JavaScript', 'ThreeJS'],
+    url: '/projects/12.jpg',
+    tech: [ 'Design & Figma'],
   },
   {
     name: '10',
     desc: '',
-    url: '/projects/image-10.jpg',
-    tech: ['NextJS', 'ThreeJS'],
+    url: '/projects/1.jpg',
+    tech: [ 'Design & Figma'],
   },
+  {
+    name: '10',
+    desc: '',
+    url: '/projects/13.jpg',
+    tech: ['Design & Figma'],
+  },
+  {
+    name: '10',
+    desc: '',
+    url: '/projects/15.jpg',
+    tech: [ 'Design & Figma'],
+  }
+
 ]
 
 export const projectsButton = [
   'All',
-  'Figma',
+  'Design & Figma',
   'Next',
   'React',
   'CSS',
@@ -430,12 +446,12 @@ export const navbarData = [
   },
   {
     id: 'about',
-    name: 'About',
+    name: 'Sobre mim',
     icon: <UserLineIcon />,
   },
   {
     id: 'experience',
-    name: 'MyRoad',
+    name: 'Experiência',
     icon: <HistoryLineIcon />,
   },
   {
@@ -450,7 +466,7 @@ export const navbarData = [
   },
   {
     id: 'projects',
-    name: 'Projects',
+    name: 'Projetos',
     icon: <ProjectorLineIcon />,
   },
   {
@@ -460,12 +476,12 @@ export const navbarData = [
   },
   {
     id: 'contact',
-    name: 'Contact',
+    name: 'Contato',
     icon: <ContactsBook2LineIcon />,
   },
   {
     id: 'questions',
-    name: 'Questions',
+    name: 'Dúvidas',
     icon: <QuestionAnswerLineIcon />,
   },
 ]

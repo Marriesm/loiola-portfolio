@@ -44,7 +44,7 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, type: 'spring', stiffness: 50 }}
-              className="relative flex flex-col gap-y-3 rounded-md border border-red-600 bg-white p-4 tracking-wide sm:text-sm dark:bg-zinc-700 transition-colors z-20"
+              className="relative flex flex-col gap-y-3 rounded-md border-2 border-lime-600 bg-white p-4 tracking-wide sm:text-sm dark:bg-zinc-700 transition-colors z-20"
             >
               <h1 className="text-xl sm:text-lg font-light text-gray-700 dark:text-white">
                 {data.title}
@@ -64,7 +64,7 @@ const Experience = () => {
                 </ul>
               </div>
               <span
-                className={`absolute top-20 font-semibold text-red-600 -translate-y-1/2 lg:hidden ${
+                className={`absolute top-20 font-semibold text-lime-600 -translate-y-1/2 lg:hidden ${
                   i % 2 === 0 ? 'left-full rotate-180' : 'right-full'
                 }`}
               >
@@ -72,7 +72,7 @@ const Experience = () => {
               </span>
             </motion.div>
             <div
-              className={`w-14 absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-red-600 font-light -translate-y-1/2 z-10 bg-white ${
+              className={`w-14 absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-lime-600 font-semibold -translate-y-1/2 z-10 bg-white ${
                 i % 2 === 0
                   ? 'left-full -translate-x-1/2 lg:left-1/2'
                   : 'right-full translate-x-1/2 lg:right-1/2'

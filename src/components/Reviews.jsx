@@ -44,7 +44,7 @@ const Reviews = () => {
             <motion.div
               initial={{ x: '100%' }}
               key={i}
-              className="absolute inset-0 flex flex-col items-center justify-center gap-y-7 lg:gap-y-4 border border-red-700 bg-zinc-50 p-14 lg:p-5 rounded-xl dark:bg-zinc-700 transition-colors"
+              className="absolute inset-0 flex flex-col items-center justify-center gap-y-7 lg:gap-y-4 border border-lime-700 bg-zinc-50 p-14 lg:p-5 rounded-xl dark:bg-gradient-to-br from-yellow-700 via-fuchsia-900 to-rose-700  transition-colors"
               ref={(el) => slides.current.push(el)}
             >
               <Image
@@ -52,23 +52,23 @@ const Reviews = () => {
                 alt="Reviews Image"
                 width={130}
                 height={130}
-                className="w-[130px] aspect-square rounded-full border border-red-700 p-4 object-contain"
+                className="w-[130px] aspect-square rounded-full border-4 border-lime-500 p-4 object-contain"
               />
-              <h1 className="text-2xl md:text-xl text-center trackig-wider text-yellow-600">
+              <h1 className="text-2xl md:text-xl text-center trackig-wider font-bold text-lime-600">
                 {review.name}
               </h1>
               <p className="text-lg md:text-sm text-justify font-extralight tracking-wide text-gray-600 first-letter:pl-2 dark:text-white transition-colors">
                 {review.comment}
               </p>
               <div className="flex flex-col items-center justify-center gap-y-2">
-                <span className="text-lg font-light text-yellow-600 mr-3">
+                <span className="text-lg font-bold text-lime-600 mr-3">
                   {review.stars
                     .reduce((sum, item) => {
                       return (sum += item)
                     }, 0)
                     .toFixed(1)}
                 </span>
-                <div className="flex items-center gap-x-2 text-2xl text-red-700">
+                <div className="flex items-center gap-x-2 text-2xl text-lime-500">
                   {review.stars.map((star, i) => (
                     <span key={i}>{star === 1 ? starIcons[0] : starIcons[1]}</span>
                   ))}
@@ -77,7 +77,7 @@ const Reviews = () => {
             </motion.div>
           ))}
         </motion.div>
-        <div className="flex gap-x-4 text-4xl text-yellow-500 mt-5">
+        <div className="flex gap-x-4 text-4xl text-lime-500 mt-5">
           <button
             className={`${
               index === 0 ? 'opacity-30 pointer-events-none' : 'opacity-100 pointer-events-auto'

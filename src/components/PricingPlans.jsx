@@ -16,7 +16,7 @@ const PricingPlans = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.4, delay: i * 0.2, scale: { duration: 0.15 } }}
             key={i}
-            className={`sm:w-[270px] flex flex-col gap-y-6 p-6 border border-red-400 rounded-xl text-gray-600 dark:bg-zinc-700 transition-colors ${
+            className={`sm:w-[270px] flex flex-col gap-y-6 p-6 border-2 border-lime-400 rounded-xl text-gray-600 dark:bg-zinc-700 transition-colors ${
               i === 1 ? 'w-[370px] xl:w-[320px] bg-white' : 'w-[350px] xl:w-[300px] bg-zinc-50'
             }`}
           >
@@ -29,7 +29,7 @@ const PricingPlans = () => {
             <ul className="flex flex-col gap-y-2">
               {plan.features.map((feature, j) => (
                 <div key={j} className="flex items-center gap-x-3">
-                  <span className={`text-2xl  ${i === 1 ? 'text-red-300' : 'text-yellow-500'}`}>
+                  <span className={`text-2xl  ${i === 1 ? 'text-lime-500' : 'text-lime-700'}`}>
                     {checkIcon}
                   </span>
                   <li className="text-[15px] font-light tracking-wide dark:text-white transition-colors">
