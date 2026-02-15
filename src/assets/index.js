@@ -228,7 +228,7 @@ export const projectsData = [
   {
     name: 'D',
     desc: '',
-    url: '/projects/Chatbot.jpeg',
+    url: '/projects/bot.jpeg',
     tech: ['Figma', 'Photoshop', 'UX'],
   },
   {
