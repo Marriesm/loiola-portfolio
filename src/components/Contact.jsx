@@ -140,6 +140,6 @@ const Contact = () => {
       </AnimatePresence>
     </div>
   )
-}git 
+}
 
 export default Contact
